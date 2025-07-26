@@ -32,5 +32,8 @@ Template tag:
 git clone https://github.com/4frag/test_task2.git
 cd test_task2
 docker-compose up --build -d
+```
+И через пару секунд (надо подождать запуска PostgreSQL)
+```bash
 ./restore-postgres.sh
 ```
