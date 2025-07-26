@@ -1,2 +1,2 @@
-docker cp ./test_task2.dump test_task2-postgres:/
-docker exec test_task2-postgres pg_restore -U test_task2 -d test_task2 test_task2.dump
+docker cp ./dump.sql test_task2-postgres:/
+docker exec test_task2-postgres psql -U test_task2 test_task2 -f dump.sql
