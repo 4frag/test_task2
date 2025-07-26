@@ -1,0 +1,15 @@
+{% if menu %}
+    {% if not items_map.self %}
+    <h2>{{menu.title}}</h2>
+    {% endif %}
+    <ul class="menu">
+        {% for item in items_map.items %}
+            {% include "menu/menu_item.html" %}
+        {% endfor %}
+        {% if not items_map.items and menu %}
+            <h3>No items</h3>
+        {% endif %}
+    </ul>
+{% else %}
+    <h2>Menu with such slug does not exist</h2>
+{% endif %}

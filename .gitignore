@@ -1,0 +1,163 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.DS_Store
+.directory
+.Trash-*
+.nfs*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.DocumentRevisions-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.vscode
+*.vscode/
+settings.json
+
+# Python environments
+venv/
+virt/
+env/
+ENV/
+env.bak/
+venv.bak/
+.pyre/
+.pytype/
+__pypackages__/
+.venv
+
+# FastAPI
+*.log
+__pycache__/
+instance/
+.webassets-cache
+
+# Development tools
+*.py[cod]
+*$py.class
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.dist-info/
+*.egg
+MANIFEST
+
+# Configurations
+.pdm.toml
+.pylintrc
+.env
+.env.production
+.build.env
+
+# Security
+*.key
+*.keys
+*.priv
+*.rsa
+*.key.json
+*.ssh
+*.ssh-key
+.key-mrc
+*.ca
+*.crt
+*.csr
+*.der 
+*.kdb
+*.org
+*.p12
+*.pem
+*.rnd
+*.ssleay
+*.smime
+authorized_keys
+id_rsa
+id_rsa.pub
+known_hosts
+debug.log
+
+# Cache
+.cache/
+.ssh/
+.vim/
+.snap/
+.bash_history
+.bashrc
+.lesshst
+.mysql_history
+.profile
+.python_history
+.sudo_as_admin_successful
+.viminfo
+/target
+
+# Misc
+*.sock
+.cython_debug/
+snap/
+.cache/
+.ssh/
+.vim/
+djangoenv/
+.bash_history
+.bashrc
+.lesshst
+.mysql_history
+.profile
+.python_history
+.sudo_as_admin_successful
+.viminfo
+
+# Project sensitive data
+*.log
+
+# Local
+postgres-data

@@ -1,0 +1,6 @@
+<li class="menu-item">
+    <a href="{{base_url}}{{ item.self.get_url }}">{{ item.self.title }}</a>
+    {% if item.items %}
+        {% include "menu/menu.html" with items_map=item %}
+    {% endif %}
+</li>
