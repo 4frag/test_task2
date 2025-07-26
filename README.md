@@ -37,3 +37,10 @@ docker-compose up --build -d
 ```bash
 ./restore-postgres.sh
 ```
+
+зайти в админку можно по [ссылке](http://localhost/admin/)
+login - test
+password - test
+
+небольшое готовое меню [тут](http://localhost/menu/main/)
+
