@@ -29,6 +29,7 @@ Template tag:
 ## Как запустить
 
 ```bash
+git clone https://github.com/4frag/test_task2.git
 docker-compose up --build -d
 ./restore-postgres.sh
 ```
