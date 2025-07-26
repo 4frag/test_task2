@@ -30,6 +30,7 @@ Template tag:
 
 ```bash
 git clone https://github.com/4frag/test_task2.git
+cd test_task2
 docker-compose up --build -d
 ./restore-postgres.sh
 ```
